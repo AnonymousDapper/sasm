@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sasm"
+version = "0.1.0"
+description = "Modular assembler-oriented compiler suite"
+authors = ["AnonymousDapper <dapper@a-sketchy.site>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+pythonVersion = "3.13.1"

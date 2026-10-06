@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+*.py[cod]
+*$py.class
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+.python-version
+
+
+# Custom rules
+logs/
+*.sublime-project
+*.sublime-workspace
+poetry.lock
